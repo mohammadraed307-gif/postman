@@ -1,0 +1,8 @@
+$kind: http-request
+name: http://localhost:4200/api/product/2
+description: ""
+url: http://localhost:4200/api/category
+method: GET
+headers:
+  Authorization: "{{bearer_token_1afz}}"
+order: 1791651745478

@@ -1,0 +1,6 @@
+$kind: http-request
+name: https://tools.ietf.org/html/rfc9110#section-15.5.1
+description: ""
+url: https://tools.ietf.org/html/rfc9110#section-15.5.1
+method: GET
+order: 4246000932436122

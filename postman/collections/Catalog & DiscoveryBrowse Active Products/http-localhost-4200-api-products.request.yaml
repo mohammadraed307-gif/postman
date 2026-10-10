@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://localhost:4200/api/products
+description: ""
+url: http://localhost:4200/api/products?page=1&limit=12
+method: PUT
+queryParams:
+  page: "1"
+  limit: "12"
+order: 1791461930743

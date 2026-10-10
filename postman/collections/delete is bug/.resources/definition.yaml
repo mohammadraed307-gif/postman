@@ -1,0 +1,11 @@
+$kind: collection
+variables:
+  - key: bearer_token_1afz
+    secret: true
+    disabled: false
+    source:
+      provider: postman
+      postman:
+        type: cloud
+        secretId: 7e7ea2ab-8023-4c1d-84e6-2eaaa193ddff
+        vaultId: 1295b9a2-ac15-4c46-bb17-050585f75563

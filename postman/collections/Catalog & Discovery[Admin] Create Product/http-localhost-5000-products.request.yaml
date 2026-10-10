@@ -1,0 +1,23 @@
+$kind: http-request
+name: http://localhost:5000/products
+description: ""
+url: http://localhost:5000/products
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Smart Watch\",\r
+
+    \  \"description\": \"Bluetooth Watch\",\r
+
+    \  \"price\": 199.99,\r
+
+    \  \"stock\": 5,\r
+
+    \  \"categoryId\": 1,\r
+
+    \  \"discount\": 10\r
+
+    }"
+order: 1791463350538

@@ -1,0 +1,21 @@
+$kind: http-request
+name: http://localhost:4200/api/product/2
+description: ""
+url: http://localhost:4200/api/product/2
+method: POST
+headers:
+  Authorization: " eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImMwMDA1OWEwLTc0NTYtNDJhYS04YTMwLWJmZjEyM2Q5NTA5MCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFkbWluQHRlc3QuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkFkbWluIFVzZXIiLCJqdGkiOiIzNzY2MTZjYi00NmE1LTRhYTctOGNiMC1jZTQ1NjBlYTFhNzIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTc5MTU1OTg3NSwiaXNzIjoiRWNvbW1lcmNlQVBJIiwiYXVkIjoiRWNvbW1lcmNlQ2xpZW50In0.ZV5W9okO49w8b4fdoPa76Qo2CH0qylzgLGLutBzheag"
+body:
+  type: json
+  content: |-
+    {
+      "name": "Product Name",
+      "description": "Product Description",
+      "price": 99.99,
+      "stock": 50,
+      "imageUrl": "https://example.com/image.jpg",
+      "categoryId": 1,
+      "discountPercentage": 0,
+      "isActive": true
+    }
+order: 1791579771101

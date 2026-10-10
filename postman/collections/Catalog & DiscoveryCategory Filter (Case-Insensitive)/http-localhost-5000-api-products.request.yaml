@@ -1,0 +1,8 @@
+$kind: http-request
+name: http://localhost:5000/api/products
+description: ""
+url: http://localhost:5000/api/products?categoryId=1
+method: GET
+queryParams:
+  categoryId: "1"
+order: 1791462883024
